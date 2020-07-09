@@ -17,8 +17,8 @@ class MyCarousel extends Component {
 
   static get CARD_STYLE() {
     return {
-      height: "200px",
-      width: "200px",
+      height: "300px",
+      width: "250px",
       paddingTop: "80px",
       textAlign: "center",
       background: "#FF2400",
@@ -40,6 +40,7 @@ class MyCarousel extends Component {
           <div style={MyCarousel.CARD_STYLE}>🍒</div>
           <div style={MyCarousel.CARD_STYLE}>👾</div>
           <div style={MyCarousel.CARD_STYLE}>👨‍💻</div>
+          <div style={MyCarousel.CARD_STYLE}>👨‍</div>
         </ReactCardCarousel>
       </div>
     );
