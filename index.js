@@ -42,7 +42,6 @@ class MyCarousel extends Component {
           <div style={MyCarousel.CARD_STYLE}>👨‍💻</div>
           <div style={MyCarousel.CARD_STYLE}>👨‍</div>
           <div style={MyCarousel.CARD_STYLE}>👨‍💻</div>
-          <div style={MyCarousel.CARD_STYLE}>👨‍</div>
         </ReactCardCarousel>
       </div>
     );
