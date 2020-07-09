@@ -21,8 +21,7 @@ class MyCarousel extends Component {
       width: "200px",
       paddingTop: "80px",
       textAlign: "center",
-      background: "#52C0F5",
-      color: "#",
+      background: "#FF2400",
       fontFamily: "sans-serif",
       fontSize: "50px",
       textTransform: "uppercase",
@@ -33,13 +32,14 @@ class MyCarousel extends Component {
 
   render() {
     return (
+      
       <div style={MyCarousel.CONTAINER_STYLE}>
         <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
           <div style={MyCarousel.CARD_STYLE}>😀</div>
           <div style={MyCarousel.CARD_STYLE}>🙈</div>
           <div style={MyCarousel.CARD_STYLE}>🍒</div>
           <div style={MyCarousel.CARD_STYLE}>👾</div>
-          <div style={MyCarousel.CARD_STYLE}>Fifth Card</div>
+          <div style={MyCarousel.CARD_STYLE}>👨‍💻</div>
         </ReactCardCarousel>
       </div>
     );
