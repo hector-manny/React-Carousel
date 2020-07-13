@@ -21,7 +21,7 @@ class MyCarousel extends Component {
       width: "250px",
       paddingTop: "80px",
       textAlign: "center",
-      background: "#FF2400",
+      background: "blue",
       fontFamily: "sans-serif",
       fontSize: "50px",
       textTransform: "uppercase",
